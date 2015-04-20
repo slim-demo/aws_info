@@ -1,0 +1,465 @@
+{ "aws":[
+{
+    "Reservations": [
+        {
+            "OwnerId": "018226762258", 
+            "ReservationId": "r-b198dbbb", 
+            "Groups": [], 
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "ec2-54-201-164-73.us-west-2.compute.amazonaws.com", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2015-04-20T09:40:53.000Z", 
+                    "PublicIpAddress": "54.201.164.73", 
+                    "PrivateIpAddress": "172.31.20.10", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-232c9646", 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-44bc42b3", 
+                    "ImageId": "ami-e9527ed9", 
+                    "PrivateDnsName": "ip-172-31-20-10.us-west-2.compute.internal", 
+                    "KeyName": "demo_slim", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "demoslim-WebServerSecurityGroup-NXNH5CNWC36U", 
+                            "GroupId": "sg-e0faf685"
+                        }
+                    ], 
+                    "ClientToken": "demos-WebSe-1KHDTWETBLKV5", 
+                    "SubnetId": "subnet-6966f40c", 
+                    "InstanceType": "t2.micro", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "02:86:e9:99:6e:4b", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-232c9646", 
+                            "Description": "", 
+                            "Association": {
+                                "PublicIp": "54.201.164.73", 
+                                "PublicDnsName": "ec2-54-201-164-73.us-west-2.compute.amazonaws.com", 
+                                "IpOwnerId": "amazon"
+                            }, 
+                            "NetworkInterfaceId": "eni-1be5117c", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-172-31-20-10.us-west-2.compute.internal", 
+                                    "Association": {
+                                        "PublicIp": "54.201.164.73", 
+                                        "PublicDnsName": "ec2-54-201-164-73.us-west-2.compute.amazonaws.com", 
+                                        "IpOwnerId": "amazon"
+                                    }, 
+                                    "Primary": true, 
+                                    "PrivateIpAddress": "172.31.20.10"
+                                }
+                            ], 
+                            "PrivateDnsName": "ip-172-31-20-10.us-west-2.compute.internal", 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-29835d07", 
+                                "AttachTime": "2015-04-20T09:40:53.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "demoslim-WebServerSecurityGroup-NXNH5CNWC36U", 
+                                    "GroupId": "sg-e0faf685"
+                                }
+                            ], 
+                            "SubnetId": "subnet-6966f40c", 
+                            "OwnerId": "018226762258", 
+                            "PrivateIpAddress": "172.31.20.10"
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-west-2a"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-d01af7c0", 
+                                "AttachTime": "2015-04-20T09:40:57.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "RootDeviceName": "/dev/xvda", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "WebServerInstance", 
+                            "Key": "aws:cloudformation:logical-id"
+                        }, 
+                        {
+                            "Value": "demoslim", 
+                            "Key": "aws:cloudformation:stack-name"
+                        }, 
+                        {
+                            "Value": "arn:aws:cloudformation:us-west-2:018226762258:stack/demoslim/3f754ce0-e741-11e4-82c7-50e2414b0a18", 
+                            "Key": "aws:cloudformation:stack-id"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ]
+        }, 
+        {
+            "OwnerId": "018226762258", 
+            "ReservationId": "r-64cc8c6e", 
+            "Groups": [], 
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "ec2-52-11-81-14.us-west-2.compute.amazonaws.com", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2015-04-19T22:27:01.000Z", 
+                    "PublicIpAddress": "52.11.81.14", 
+                    "PrivateIpAddress": "172.31.17.169", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-232c9646", 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-837a8674", 
+                    "ImageId": "ami-4dbf9e7d", 
+                    "PrivateDnsName": "ip-172-31-17-169.us-west-2.compute.internal", 
+                    "KeyName": "demo_slim", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-1", 
+                            "GroupId": "sg-9a222eff"
+                        }
+                    ], 
+                    "ClientToken": "yHHna1429482419903", 
+                    "SubnetId": "subnet-6966f40c", 
+                    "InstanceType": "t2.micro", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "02:57:45:4d:84:ca", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-232c9646", 
+                            "Description": "", 
+                            "Association": {
+                                "PublicIp": "52.11.81.14", 
+                                "PublicDnsName": "ec2-52-11-81-14.us-west-2.compute.amazonaws.com", 
+                                "IpOwnerId": "amazon"
+                            }, 
+                            "NetworkInterfaceId": "eni-a88673cf", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-172-31-17-169.us-west-2.compute.internal", 
+                                    "Association": {
+                                        "PublicIp": "52.11.81.14", 
+                                        "PublicDnsName": "ec2-52-11-81-14.us-west-2.compute.amazonaws.com", 
+                                        "IpOwnerId": "amazon"
+                                    }, 
+                                    "Primary": true, 
+                                    "PrivateIpAddress": "172.31.17.169"
+                                }
+                            ], 
+                            "PrivateDnsName": "ip-172-31-17-169.us-west-2.compute.internal", 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-12b46b3c", 
+                                "AttachTime": "2015-04-19T22:27:01.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-1", 
+                                    "GroupId": "sg-9a222eff"
+                                }
+                            ], 
+                            "SubnetId": "subnet-6966f40c", 
+                            "OwnerId": "018226762258", 
+                            "PrivateIpAddress": "172.31.17.169"
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-west-2a"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-0e698b1e", 
+                                "AttachTime": "2015-04-19T22:27:05.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "RootDeviceName": "/dev/sda1", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "slimdemo", 
+                            "Key": "Name"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ]
+        }
+    ]
+}
+,
+{
+    "DBInstances": [
+        {
+            "PubliclyAccessible": true, 
+            "MasterUsername": "demo", 
+            "LicenseModel": "general-public-license", 
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active", 
+                    "VpcSecurityGroupId": "sg-b9f9f5dc"
+                }
+            ], 
+            "InstanceCreateTime": "2015-04-20T09:42:32.424Z", 
+            "OptionGroupMemberships": [
+                {
+                    "Status": "in-sync", 
+                    "OptionGroupName": "default:mysql-5-6"
+                }
+            ], 
+            "PendingModifiedValues": {}, 
+            "Engine": "mysql", 
+            "MultiAZ": false, 
+            "DBSecurityGroups": [], 
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "default.mysql5.6", 
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ], 
+            "AutoMinorVersionUpgrade": true, 
+            "PreferredBackupWindow": "12:38-13:08", 
+            "DBSubnetGroup": {
+                "Subnets": [
+                    {
+                        "SubnetStatus": "Active", 
+                        "SubnetIdentifier": "subnet-6966f40c", 
+                        "SubnetAvailabilityZone": {
+                            "Name": "us-west-2a"
+                        }
+                    }, 
+                    {
+                        "SubnetStatus": "Active", 
+                        "SubnetIdentifier": "subnet-0111a176", 
+                        "SubnetAvailabilityZone": {
+                            "Name": "us-west-2b"
+                        }
+                    }, 
+                    {
+                        "SubnetStatus": "Active", 
+                        "SubnetIdentifier": "subnet-19845240", 
+                        "SubnetAvailabilityZone": {
+                            "Name": "us-west-2c"
+                        }
+                    }
+                ], 
+                "DBSubnetGroupName": "default", 
+                "VpcId": "vpc-232c9646", 
+                "DBSubnetGroupDescription": "default", 
+                "SubnetGroupStatus": "Complete"
+            }, 
+            "ReadReplicaDBInstanceIdentifiers": [], 
+            "AllocatedStorage": 5, 
+            "BackupRetentionPeriod": 0, 
+            "DBName": "demoslim", 
+            "PreferredMaintenanceWindow": "wed:10:53-wed:11:23", 
+            "Endpoint": {
+                "Port": 3306, 
+                "Address": "demoslim.cahhnyzdhejl.us-west-2.rds.amazonaws.com"
+            }, 
+            "DBInstanceStatus": "available", 
+            "EngineVersion": "5.6.22", 
+            "AvailabilityZone": "us-west-2b", 
+            "StorageType": "standard", 
+            "DbiResourceId": "db-2RS3JVQCLN4TJSYGPNXS3VTRJI", 
+            "CACertificateIdentifier": "rds-ca-2015", 
+            "StorageEncrypted": false, 
+            "DBInstanceClass": "db.t2.micro", 
+            "DBInstanceIdentifier": "demoslim"
+        }
+    ]
+}
+,
+{
+    "LoadBalancerDescriptions": [
+        {
+            "Subnets": [
+                "subnet-0111a176", 
+                "subnet-19845240", 
+                "subnet-6966f40c"
+            ], 
+            "CanonicalHostedZoneNameID": "Z33MTJ483KN6FU", 
+            "CanonicalHostedZoneName": "demoslim-2069704299.us-west-2.elb.amazonaws.com", 
+            "ListenerDescriptions": [
+                {
+                    "Listener": {
+                        "InstancePort": 80, 
+                        "LoadBalancerPort": 80, 
+                        "Protocol": "HTTP", 
+                        "InstanceProtocol": "HTTP"
+                    }, 
+                    "PolicyNames": []
+                }
+            ], 
+            "HealthCheck": {
+                "HealthyThreshold": 10, 
+                "Interval": 30, 
+                "Target": "HTTP:80/index.html", 
+                "Timeout": 5, 
+                "UnhealthyThreshold": 2
+            }, 
+            "VPCId": "vpc-232c9646", 
+            "BackendServerDescriptions": [], 
+            "Instances": [
+                {
+                    "InstanceId": "i-837a8674"
+                }
+            ], 
+            "DNSName": "demoslim-2069704299.us-west-2.elb.amazonaws.com", 
+            "SecurityGroups": [
+                "sg-a0222ec5"
+            ], 
+            "Policies": {
+                "LBCookieStickinessPolicies": [], 
+                "AppCookieStickinessPolicies": [], 
+                "OtherPolicies": []
+            }, 
+            "LoadBalancerName": "demoslim", 
+            "CreatedTime": "2015-04-20T09:32:27.890Z", 
+            "AvailabilityZones": [
+                "us-west-2c", 
+                "us-west-2b", 
+                "us-west-2a"
+            ], 
+            "Scheme": "internet-facing", 
+            "SourceSecurityGroup": {
+                "OwnerAlias": "018226762258", 
+                "GroupName": "default"
+            }
+        }
+    ]
+}
+,
+{
+    "CacheClusters": [
+        {
+            "Engine": "memcached", 
+            "CacheParameterGroup": {
+                "CacheNodeIdsToReboot": [], 
+                "CacheParameterGroupName": "default.memcached1.4", 
+                "ParameterApplyStatus": "in-sync"
+            }, 
+            "CacheClusterId": "demoslim", 
+            "PreferredAvailabilityZone": "us-west-2b", 
+            "ConfigurationEndpoint": {
+                "Port": 11211, 
+                "Address": "demoslim.strpjd.cfg.usw2.cache.amazonaws.com"
+            }, 
+            "CacheSecurityGroups": [], 
+            "CacheClusterCreateTime": "2015-04-20T09:41:23.281Z", 
+            "AutoMinorVersionUpgrade": true, 
+            "CacheClusterStatus": "available", 
+            "NumCacheNodes": 1, 
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:", 
+            "SecurityGroups": [
+                {
+                    "Status": "active", 
+                    "SecurityGroupId": "sg-a0222ec5"
+                }
+            ], 
+            "CacheSubnetGroupName": "default", 
+            "EngineVersion": "1.4.14", 
+            "PendingModifiedValues": {}, 
+            "PreferredMaintenanceWindow": "fri:10:00-fri:11:00", 
+            "CacheNodeType": "cache.t2.micro"
+        }
+    ]
+}
+,
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-west-2:018226762258:stack/demoslim/3f754ce0-e741-11e4-82c7-50e2414b0a18", 
+            "Description": "AWS CloudFormation Sample Template LAMP_Single_Instance: Create a LAMP stack using a single EC2 instance and a local MySQL database for storage. This template demonstrates using the AWS CloudFormation bootstrap scripts to install the packages and files necessary to deploy the Apache web server, PHP and MySQL at instance launch time. **WARNING** This template creates an Amazon EC2 instance. You will be billed for the AWS resources used if you create a stack from this template.", 
+            "Parameters": [
+                {
+                    "ParameterValue": "****", 
+                    "ParameterKey": "DBPassword"
+                }, 
+                {
+                    "ParameterValue": "0.0.0.0/0", 
+                    "ParameterKey": "SSHLocation"
+                }, 
+                {
+                    "ParameterValue": "****", 
+                    "ParameterKey": "DBRootPassword"
+                }, 
+                {
+                    "ParameterValue": "demoslim", 
+                    "ParameterKey": "DBName"
+                }, 
+                {
+                    "ParameterValue": "demo_slim", 
+                    "ParameterKey": "KeyName"
+                }, 
+                {
+                    "ParameterValue": "t2.micro", 
+                    "ParameterKey": "InstanceType"
+                }, 
+                {
+                    "ParameterValue": "****", 
+                    "ParameterKey": "DBUser"
+                }
+            ], 
+            "Tags": [], 
+            "Outputs": [
+                {
+                    "Description": "URL for newly created LAMP stack", 
+                    "OutputKey": "WebsiteURL", 
+                    "OutputValue": "http://ec2-54-201-164-73.us-west-2.compute.amazonaws.com"
+                }
+            ], 
+            "StackStatusReason": "", 
+            "CreationTime": "2015-04-20T09:40:15.326Z", 
+            "StackName": "demoslim", 
+            "NotificationARNs": [], 
+            "StackStatus": "CREATE_COMPLETE", 
+            "DisableRollback": false
+        }
+    ]
+}
+]}
